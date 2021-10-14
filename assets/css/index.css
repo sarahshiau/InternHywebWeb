@@ -168,7 +168,7 @@
 .title .title-txt {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #002F76;
+  color: #0158A3;
 }
 
 .ml-auto {
@@ -185,11 +185,18 @@
   text-align: center;
   font-size: 28px;
   font-weight: 700;
-  color: #002F76;
+  color: #ffffff;
+}
+
+.total {
+  color: #0158A3 !important ;
 }
 
 .content-txt {
   font-size: 18px;
+  /* text-align: center; */
+  padding-top: 60px;
+  color: #3a3a3a;
 }
 
 nav {
@@ -198,7 +205,7 @@ nav {
 }
 
 nav .logo-img {
-  margin: 10px 0px 0px 50px;
+  margin: 10px 0px 0px 20px;
 }
 
 nav .material-icons{
@@ -214,7 +221,7 @@ nav li a {
   padding: 0 !important;
   font-size: 18px;
   font-weight: 500;
-  color: #002F76 !important;
+  color: #ffffff !important;
 }
 
 nav .hover-line::after {
@@ -224,14 +231,14 @@ nav .hover-line::after {
   height: 3px;
   -webkit-transition: width .3s;
   transition: width .3s;
-  background: #F5B54F;
+  background: #68CEDA;
 }
 
 nav .hover-line:hover::after {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #F5B54F;
+  background: #51a4ad;
 }
 
 nav .hover-line ul.dropdown-menu {
@@ -248,7 +255,7 @@ nav .hover-line ul.dropdown-menu li {
 }
 
 nav .hover-line ul.dropdown-menu li:hover {
-  background-color: #F5B54F;
+  background-color: #9acfd4;
 }
 
 nav .hover-line ul.dropdown-menu li a:hover {
@@ -278,7 +285,7 @@ nav .hover-line ul.dropdown-menu li a:hover {
   letter-spacing: .4rem;
   font-weight: 700;
   font-size: 48px;
-  color: #002F76;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 466px) {
@@ -304,7 +311,7 @@ nav .hover-line ul.dropdown-menu li a:hover {
 .banner .banner-title a.down-arrow span {
   font-size: 28px;
   font-weight: 600;
-  color: #F0831D;
+  color: #93EEC1;
 }
 
 .banner .img-sm img {
@@ -447,6 +454,9 @@ nav .hover-line ul.dropdown-menu li a:hover {
   }
 }
 
+.company {
+  background-color: #d5e8f8;
+}
 /*公司介紹 */
 .company .intro {
   padding-top: 86px;
@@ -456,6 +466,13 @@ nav .hover-line ul.dropdown-menu li a:hover {
   .company .intro .title-md .title-txt {
     font-size: 24px;
   }
+}
+
+.intro .title-md .title-txt {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1262A9;
 }
 
 .company .intro .content {
@@ -612,7 +629,7 @@ nav .hover-line ul.dropdown-menu li a:hover {
   content: '';
   position: absolute;
   top: -3rem;
-  left: -9rem;
+  left: -10rem;
   height: 300px;
   width: 300px;
   display: block;
@@ -733,8 +750,53 @@ nav .hover-line ul.dropdown-menu li a:hover {
   }
 }
 
+.company .idea .idea-04 {
+  width: 35%;
+  margin-top: 50px;
+  margin-left: 70%;
+}
+
+.company .idea .idea-04::before {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: -10.5rem;
+  height: 300px;
+  width: 300px;
+  display: block;
+  background-image: url("../images/idea_04.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.8;
+  -webkit-animation: intro 2.5s infinite;
+          animation: intro 2.5s infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .company .idea .idea-04 {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .company .idea .idea-04::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: -4rem;
+    height: 120px;
+    width: 120px;
+    display: block;
+    background-image: url("../images/idea_04.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+
 .company .envir {
-  padding: 100px 0;
+  padding: 70px 0 80px 0;
 }
 
 .company .envir .envir-img {
@@ -744,8 +806,8 @@ nav .hover-line ul.dropdown-menu li a:hover {
 }
 
 .company .envir .envir-img img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 350px;
 }
 
 .company .envir .content {
@@ -757,11 +819,12 @@ nav .hover-line ul.dropdown-menu li a:hover {
 
 .company .envir .content .content-txt {
   width: 70%;
+  text-align: center;
 }
 
 .intern {
   padding-top: 80px;
-  background-color: #F2E2D3;
+  background-color: #003869;
 }
 
 .intern .title-md {
@@ -789,13 +852,13 @@ nav .hover-line ul.dropdown-menu li a:hover {
   text-align: center;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #002F76;
+  color: #FFFFFF;
 }
 
 .intern .btn-intern .btn {
   font-size: 1.125rem;
   font-weight: 700;
-  color: #F0831D;
+  color: #68CEDA;
 }
 
 .intern .btn-intern .btn .btn-txt::after {
@@ -805,12 +868,12 @@ nav .hover-line ul.dropdown-menu li a:hover {
   height: 3px;
   -webkit-transition: width .3s;
   transition: width .3s;
-  background: #F5B54F;
+  background: #68CEDA;
 }
 
 .intern .btn-intern .btn .btn-txt:hover::after {
   width: 100%;
-  background: #F5B54F;
+  background: #68CEDA;
 }
 
 .intern .row-intern {
@@ -869,7 +932,7 @@ nav .hover-line ul.dropdown-menu li a:hover {
   content: "";
   width: 100%;
   height: 100%;
-  border: dashed 3px #F0831D;
+  border: dashed 3px #68CEDA;
   position: absolute;
   top: 0;
   left: 0;
@@ -883,17 +946,18 @@ nav .hover-line ul.dropdown-menu li a:hover {
 .intern .row-intern .intern-content a.option:hover::before {
   -webkit-animation: option 10s infinite linear;
           animation: option 10s infinite linear;
+  color: #68CEDA;
 }
 
 .intern .row-intern .intern-content a.option:hover span {
   -webkit-animation: icon 2s infinite;
           animation: icon 2s infinite;
-  color: #F0831D;
+  color: #68CEDA;
 }
 
 .intern .row-intern .intern-content a.option span {
   font-size: 2.5rem;
-  color: #002F76;
+  color: #FFFFFF;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -902,12 +966,12 @@ nav .hover-line ul.dropdown-menu li a:hover {
   padding: 10px 0;
   font-size: 0.875rem;
   font-weight: 500;
-  color: #3f3f3f;
+  color: #FFFFFF;
 }
 
 .row-intern.s-row-intern {
-  padding-top: 90px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 90px;
   margin-top: 40px;
 }
 
@@ -919,7 +983,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
-  color: #002F76;
+  color: #0158A3;
   background-color: #CFE0EF;
 }
 
@@ -932,7 +996,7 @@ footer {
   width: 50px;
   height: 50px;
   color: #fff;
-  background: #1262A9;
+  background: #93EEC1;
   line-height: 50px;
   border-radius: 50%;
   -webkit-transition: all 0.5s;
@@ -943,7 +1007,7 @@ footer {
 }
 
 #gotop:hover {
-  background: #002F76;
+  background: #68CEDA;
 }
 
 #gotop span {
